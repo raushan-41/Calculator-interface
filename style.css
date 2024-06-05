@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+ .background{
+    background-color: rgb(60, 60, 60);
+    height: 100vh;
+    width: 100vw;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color:rgb(223, 217, 217);
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    position: absolute;
+    top: 100px;
+    left: 18px;
+}
+/* .keypad{
+height: 30px;
+width: 30px;
+border: 1px black solid;
+text-align: center;
+top: 50px;
+ } */
+.boxcontainer{
+    height: 315px;
+    width: 225px;
+position: absolute;
+top: 10%;
+left: 25%;
+background-color:rgb(220, 213, 213);
+border-radius: 5px;
+box-shadow:gray 0px 5px 5px;
+
+}
+button{
+    height: 40px;
+    width: 40px;
+    color: black;
+    text-size-adjust: 220%;
+    border-radius: 3px;
+    border: 1px rgb(102, 102, 102) solid;
+    box-shadow: 0px 2px 2px;
+}
+.display{
+height: 40px;
+width: 188px;
+border: 2px;
+border-radius: 5px;
+background-color: whitesmoke;
+background:linear-gradient(to bottom ,gray,white,white,white,white,white,white,white,white,gray);
+border-bottom-color:2px white;
+border-left-color: 2px rgba(255, 0, 0, 0.427);
+position: absolute;
+top: 30px;
+left: 18px;
+box-shadow: rgb(56, 50, 50) 0px 2px 2px ;
+}
+.blackbutton{
+    background-color: rgb(50, 50, 50);
+    color: white;
+    text-decoration: solid;
+    box-decoration-break: 2px;
+    border: 2px black;
+    box-shadow:black 0px 2px 2px;
+
+}
+.redbutton{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: 0px black solid;
+   box-shadow: black 0px 2px 2px;
+    
+}
+button:hover{
+    background-color:rgb(142, 142, 142) ;
+    
+}
+.redbutton:hover{
+    background-color:rgb(141, 26, 26) ;
+        
+}
